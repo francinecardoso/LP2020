@@ -24,7 +24,7 @@ print(type(verdadeiroFalso))
 print(len(nome))
 #Repetir valor da variável, usar * e colocar a quantide de vezes que gostaria de repetir
 #devendo como dar espaço entre os itens
-print((nome, '')*3)
+print((nome + ' ' ) * 3)
 #Concatenando strings 
 print(nome + '', sobrenome)
 print(nome + ' Cardoso')
@@ -34,5 +34,3 @@ print(numeroDecimal)
 print(round(numeroDecimal,3))
 #Outra forma de arredondamento e definir a quantidade de casas depois da vírgula(pontos)
 print('%.3f' % numeroDecimal)
-#Ver para truncar casas(próxima aula)
-
