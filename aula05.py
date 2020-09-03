@@ -92,3 +92,8 @@ print("Juntando listas: ", minhaQuartaLista)
 
 #Encontrando a posição de um item na lista
 print("Encontrando a posição de um item na lista: ", minhaQuartaLista.index("hello"))
+
+#Colocar os itens da lista númerica em ordem crescente
+minhaListaNumerica = [2,4,9,7,0]
+print("minha lista ordenada numérica: ", sorted(minhaListaNumerica))
+print("minha lista ordenada alfabética: ", sorted(minhaQuartaLista))
