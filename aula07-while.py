@@ -4,7 +4,7 @@
 #    print("loop infinito",i)
 
 #while loop finito (com parada se satisfaz a condição)
-i=0;
+i=0
 while i<6:
     print("loop elegante", i)
     i=i+1
